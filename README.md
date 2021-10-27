@@ -7,8 +7,8 @@ Up-and-comer playwright Louise was able to earn close to her initial fundraising
 ## Analysis and Challenges
 Initial work on the .xlsx was performed to prepare the data for the above objectives including:
 * Split category and subcategory into separate columns
-* Converted unix timestamps for campaign launch and deadline into short dates (number formatting) 
-* Obtaining the year based (via =year() function)
+* Converted unix timestamps for campaign launch and deadline into short dates 
+* Obtaining the year based (via `=year()` function)
 
 Other editions made, not directly related to answering the above questions:
 * Determined percent funded.
@@ -18,30 +18,30 @@ Other editions made, not directly related to answering the above questions:
 To answer Louise's questions, two tables were generated from the Kickstarter worksheet and visualized. The first is a Pivot Table which tabulated the count of outcomes according to the launch date of campaigns by month and filtered to show only Theater categories of kickstarters. 
 ![Pivot_Table_Launch_Dates](https://user-images.githubusercontent.com/90335218/138988148-8eb58e6b-3025-4110-ac76-7402e3f110fa.png) 
 
-And then visualized as a line chart.
+And then visualized as a line chart to best view trends over time.
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/90335218/138991560-22db7a43-b095-4b5e-a553-78eace6a7daa.png)
 
-The second table utilizes =COUNTIFS() functions calling the counts for the following outcomes from the Kickstarter worksheet: Successful, Failed and Canceled projects. These counts were organized into certain bins or ranges of funds goals. The number of kickstarter campaigns were summed for each bin (=sum()) and the percentage of campaigns for each outcome was determined.
+The second table utilizes `COUNTIFS()` functions calling the counts for the following outcomes from the Kickstarter worksheet: Successful, Failed and Canceled projects. These counts were organized into certain bins or ranges of funds goals. The number of kickstarter campaigns were summed for each bin (`=sum()`) and the percentage of campaigns for each outcome was determined.
 ![Table_Goals](https://user-images.githubusercontent.com/90335218/138993638-db609e43-cc28-43ba-bdaf-3b4fd0093b0d.png)
 
-These percentages were then plotted in a line chart against the different bins of funds goal. 
+These percentages were then plotted in a line chart against bins of goal ranges to view trends between the different outcomes.
 ![Outcomes_vs_goals](https://user-images.githubusercontent.com/90335218/138993730-662cd434-af06-45ad-83ca-1637a265a29f.png)
 
 ### Analysis of Outcomes Based on Launch Date
-
+At first glance, the Outcomes by Launch Date line chart suggests that the best time to launch kickstarters would be May as it had the highest number of successful campaigns (99) and that the worst time is September (40). For a more in depth analysis, we can use these figures to look into another important metric, the ratio of Successful:Failed projects, the larger the number, the more optimal. May only holds the sixth highest ratio of 1.80 of all the months. In fact, December, which had the least total kickstarters in 8 years, held the highest success:failure ratio of 2.38. 
 ### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
-One of the recurring difficulties encountered was being able to execute the visualized data in my head into the necessary formulae in excel. 
+One of the recurring difficulties encountered was being able to execute the visualized data in my head into the necessary formulae in Excel. Typically what ends up happening is a longwinded solution when a more elegant solution can be derived if the approach to presenting the data was slightly different. For example, to create the chart for Outcomes based on Goals, my first attempt was a histogram, pre-filtered on Kickstarter worksheet for the desired outcome, with the x-axis displaying bins of individual goals. Obviously, this isn't useful as there are way too many bins to cover such a large range of Goal values and isn't useful as the outcomes cannot be compared against each other. A more concise and elegant solution, as suggested by the deliverable instructions, is to provide a range of goals in fewer bins and to visualize by line chart.
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
 - What can you conclude about the Outcomes based on Goals?
 
-- What are some limitations of this dataset?
+- What are some limitations of this dataset? 
 
 - What are some other possible tables and/or graphs that we could create?
-- How does campaign duration affect outcome, would that be a better metric than launch date for example?
+- How does campaign duration affect outcome, would that be more informative than launch date for example? This is something the campaigner (in this case Louise) has control over and it makes sense that as the duration gets protracted, the less donors are interested. 
 - Does number of backers have an effect on outcome?
 - How does origin of the campaign (country) affect outcome? If Louise isn't tied down to a particular country, perhaps she could have better chance of a successful campaign in another country.

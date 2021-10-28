@@ -1,7 +1,7 @@
 # Kickstarter Analysis
 
 ## Overview of Project
-Kickstarter_Challenge.xlsx dataset will be used to determine what Kickstarter outcomes were achieved based on when they launched their campaigns and what their initial fundraising goals were. 
+[Kickstarter_Challenge.xlsx](data-1-1-3-StarterBook.xlsx) dataset will be used to determine what Kickstarter outcomes were achieved based on when they launched their campaigns and what their initial fundraising goals were. 
 ### Purpose
 Up-and-comer playwright Louise was able to earn close to her initial fundraising goal. She has asked us now to determine from our dataset how various kickstarters were affected by 1) when they were launched and 2) their funding goals.
 ## Analysis and Challenges

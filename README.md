@@ -1,5 +1,8 @@
 # Kickstarter Analysis
 
+## Note
+Please use (v2) versions of files for assessment. For full transparency I will be leaving v1 files which contained the same work on jumbled data (from filtering/unfiltering user error). 
+
 ## Overview of Project
 [Kickstarter_Challenge.xlsx](data-1-1-3-StarterBook.xlsx) dataset will be used to determine what Kickstarter outcomes were achieved based on when they launched their campaigns and what their initial fundraising goals were. 
 ### Purpose

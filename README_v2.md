@@ -11,7 +11,11 @@ Initial [dataset](data-1-1-3-StarterBook.xlsx) was used to provide a better unde
 ## Analysis and Challenges
 
 
+
+
 ### Analysis of Outcomes Based on Launch Date
+
+### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
 

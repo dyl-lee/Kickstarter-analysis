@@ -19,26 +19,26 @@ Other editions made, not directly related to answering the above questions:
 
 To answer Louise's questions, two tables were generated from the Kickstarter worksheet and visualized. The first is a Pivot Table which tabulated the count of outcomes according to the launch date of campaigns by month and filtered to show only Theater categories of kickstarters: 
 
-(insert Pivot table for launch dates)
+![pivot_table_dates](Resources/Pivot_Launch.png)
 
 And then visualized as a line chart to best view trends over time:
-(insert theater outcomes vs launch)
+![launch on outcomes](Resources/Theater_Outcomes_vs_Launch_v2.png)
 
 The second table utilizes `COUNTIFS()` functions calling the counts for the following outcomes from the Kickstarter worksheet: Successful, Failed and Canceled projects. These counts were organized into certain bins or ranges of funds goals. The number of kickstarter campaigns were summed for each bin (`=sum()`) and the percentage of campaigns for each outcome was determined:
-(insert table for goals)
+![table for goals](Resources/table_goals.png)
 
 These percentages were then plotted in a line chart against bins of goal ranges to view trends between the different outcomes:
-(insert outcomes vs goals chart)
+![goals on outcomes](Resources/Outcomes_vs_Goals_v2.png)
 
 ### Analysis of Outcomes Based on Launch Date
 Plotting the outcomes of theater kickstarters over time shows several things: 1) In every month, theater kickstarters are generally more successful than they fail, 2) there are certain months that consistently see more robust launches than others (May, June, July, August) which suggests seasonality around those months. That being said, the chart suggests the best time to launch kickstarters would be May as it had the highest number of successful campaigns and that the worst time would be December. Indeed, if we also account for the ratio of successful:failed and cancelled projects within each month (see below), May launches (2.02) are twice as likely to succeed compared to December's success ratio of 0.97. 
 
-(insert chart of ratios)
+![ratios](Resources/Ratio_Month.png)
 
 ### Analysis of Outcomes Based on Goals
 Project success is negatively correlated with increasing fundraising goal amounts. Specifically, the data suggests campaigns are more likely to succeed with a budget of under $15,000 with the highest percent success in those projects with goals less than $1000. Some descriptive statistics was generated to compare the goals successful and failed projects, which revealed high variance for both outcomes within the dataset. That being said, the averages (mean, median) for successful projects are consistently lower than that of failed projects.
 
-(insert desc stats table)
+![desc stats](Resources/Desc_stats.png)
 
 To add context to these numbers, Louise's initial goal amount of $10,000 (which is higher than 85% of all successful projects) is more than 3 times higher than the median for successful projects indicating that high goal amount may set up Fever for failure.
 

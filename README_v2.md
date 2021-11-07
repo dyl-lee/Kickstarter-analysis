@@ -49,10 +49,10 @@ A recurring difficulty encountered was finding the optimal visualization. For ex
 ## Other Comments
 
 ### What are some limitations of this dataset?
-Firstly, the dataset only covers kickstarters from 2009 to 2017, if the intention is to inform Louise of current trends, our analyses would benefit from including recent data. Secondly, an important question to consider is: does this dataset fully capture the process 
+Firstly, the dataset only covers kickstarters from 2009 to 2017, if the intention is to inform Louise of current trends, our analyses would benefit from including recent data. Secondly, an important question to consider is: does this dataset fully capture the Kickstarter process? A quick google search [shows](https://help.kickstarter.com/hc/en-us/articles/115005028514-What-are-the-basics-) that Rewards could be an important aspect of in the outcome of projects yet is lacking from the current dataset. Rewards present a way for creators to engage with their backers, holding their interest in project and potentially convincing more backers to invest. This would perhaps provide insight into some of the successful projects with higher fundraising goals.
 
 ### What are some other possible tables and/or graphs that we could create?
 With this dataset, other important figures could be generated to answer some other interesting questions:
-- How does campaign duration affect outcome? In other words, the duration of the campaign itself. This is something campaigners have control over and, intuitively, the longer the campaign completion, the more likely donors lose interest therefore lowering the threshold for success.
+- How does campaign duration affect outcome? In other words, the duration of the campaign itself. This is something Kickstarter creators have control over and, intuitively, the longer the campaign completion, the more likely donors lose interest therefore lowering the threshold for success.
 - What effect does the number of backers have on projects with various goal amounts?
 - How does origin of the campaign (country) affect outcome? Does percent success differ from total projects per country?
